@@ -7,7 +7,6 @@ A complete end-to-end data analytics project on coffee shop transaction data usi
 - **Columns:** transaction_id, transaction_date, transaction_time, transaction_qty, store_id, 
   store_location, product_id, unit_price, product_category, product_type, product_detail
 
----
 
 ## 🛠️ Tools & Technologies
 | Tool | Purpose |
@@ -25,19 +24,6 @@ A complete end-to-end data analytics project on coffee shop transaction data usi
 5. What are the peak hours and days for transactions?
 6. How has monthly revenue trended over time?
 
----
-
-## 📊 Sample Visualizations
-> *(Add screenshot images from your /output folder here)*
-
-| Chart | Preview |
-|-------|---------|
-| Monthly Revenue Trend | ![](output/monthly_revenue_trend.png) |
-| Revenue by Store | ![](output/revenue_by_store.png) |
-| Top 10 Products | ![](output/top10_products_revenue.png) |
-| Peak Hours | ![](output/peak_hours.png) |
-
----
 
 ## 💡 Key Insights
 - **Total revenue:** $698,812.33 across 149,116 transaction records.
@@ -56,15 +42,14 @@ A complete end-to-end data analytics project on coffee shop transaction data usi
 ---
 
 ## 📦 Requirements
-```text
-pandas
-matplotlib
-seaborn
-openpyxl
-jupyter
+- pandas
+- matplotlib
+- seaborn
+- openpyxl
+- jupyter
 
 
-**## Short Summary
+## Short Summary
 This project is an end-to-end data analytics project developed using SQL, Python, Pandas, Matplotlib, and Seaborn to analyze approximately 149,000 coffee shop transactions.
 The analysis covers the complete data analytics workflow:
 Loaded the CSV dataset into SQLite for SQL analysis.
@@ -75,8 +60,8 @@ Created 10 business-focused visualizations to identify trends and patterns.
 Generated descriptive statistics and identified the highest and lowest revenue days.
 Organized the entire project into a GitHub-ready structure with reusable Python scripts, SQL queries, visualizations, database, requirements, and README.
 
-**## Key Findings
-**Metric	Result
+## Key Findings
+## Metric	Result
 - Total Transactions	149,116
 - Total Revenue	$698,812.33
 - Highest-Revenue Store	Hell's Kitchen
@@ -89,7 +74,7 @@ Organized the entire project into a GitHub-ready structure with reusable Python 
 - Highest-Revenue Day	Monday
 - Highest-Revenue Month	June 2023
 
-**## 📝 Project Conclusion
+## 📝 Project Conclusion
 
 The Coffee Shop Sales analysis provides a comprehensive view of the business's sales performance, product demand, store performance, and customer purchasing patterns.
 The dataset generated approximately $698.8K in revenue across 149K+ transactions, demonstrating a substantial volume of customer activity. Among the store locations, Hell's Kitchen generated the highest revenue, making it an important location for understanding successful sales patterns.
