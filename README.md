@@ -77,8 +77,11 @@ Organized the entire project into a GitHub-ready structure with reusable Python 
 ## 📝 Project Conclusion
 
 The Coffee Shop Sales analysis provides a comprehensive view of the business's sales performance, product demand, store performance, and customer purchasing patterns.
+
 The dataset generated approximately $698.8K in revenue across 149K+ transactions, demonstrating a substantial volume of customer activity. Among the store locations, Hell's Kitchen generated the highest revenue, making it an important location for understanding successful sales patterns.
 At the product-category level, Coffee was the largest contributor to revenue, accounting for approximately 38.6% of total sales. This indicates that coffee products represent a major component of the business's revenue stream. The product-level analysis also revealed differences between products that sell the highest number of units and products that generate the most revenue, demonstrating why both sales volume and revenue should be considered when evaluating product performance.
+
 The time-based analysis showed that 10:00 AM was the busiest transaction hour, while Monday generated the highest revenue among the days of the week. Revenue also showed a strong upward pattern across the analyzed months, with June 2023 recording the highest monthly revenue.
 The analysis can help the business focus on inventory planning, staff scheduling, product promotions, store-level performance monitoring, and revenue optimization. For example, staffing and inventory levels could be aligned with high-traffic periods, while product-level revenue and quantity metrics can be used to identify products requiring greater inventory attention or promotional strategies.
+
 Overall, this project demonstrates how SQL can be used to efficiently extract business insights from transactional data and Python can be used to clean, analyze, visualize, and communicate those insights effectively.
